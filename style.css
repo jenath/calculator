@@ -1,3 +1,13 @@
 body{
-  background: red;
+  background-color: red;
+}
+
+input[type=button] {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: orange;
+  font-size: 10px;
+  margin:5px;
 }

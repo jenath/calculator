@@ -1,12 +1,4 @@
-var one,two,total;
-
-function setValues(){
-  one = document.getElementById('a').value;
-  two = document.getElementById('b').value;
-}
-
-function sum() {
-  setValues();
-  total = one + two;
-  alert(total);
+function backspace(){
+  var minusOne=field.value.substring(0,field.value.length-1);
+  document.getElementById('field').value=minusOne;
 }
